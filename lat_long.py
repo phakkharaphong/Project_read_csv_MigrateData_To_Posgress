@@ -4,11 +4,11 @@ import time
 import pandas as pd
 
 conn = psycopg2.connect(
-    host="ls-dff4275590c5865e49636956f5a05008e10051aa.cgk32deom7as.ap-northeast-1.rds.amazonaws.com",
+    host="connection string here",
     port=5432,
-    dbname="ehdc_4_4_3",
-    user="dbmasteruser",
-    password="{>&EU}Q=.B4?~g:h4!ip}nm|zKcgi!%="
+    dbname="data name",
+    user="user in posgress",
+    password="your-password"
 )
 cursor = conn.cursor()
 
